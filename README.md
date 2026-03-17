@@ -1,150 +1,150 @@
-# Cameron Morreale — Data Engineering Portfolio  
+# Cameron Morreale — Data Engineering Portfolio
 
-Building data systems that transform complex financial workflows into scalable decision infrastructure.
+Building financial data systems, repairing broken pipelines, and transforming complex, undocumented data environments into scalable decision infrastructure.
 
 ![Python](https://img.shields.io/badge/Python-Data%20Engineering-blue)
 ![SQL](https://img.shields.io/badge/SQL-Advanced-green)
+![Oracle](https://img.shields.io/badge/Database-Oracle-red)
 ![AWS](https://img.shields.io/badge/AWS-Lambda-orange)
 ![Focus](https://img.shields.io/badge/Focus-Financial%20Data%20Systems-black)
 
-Data Engineer specializing in **financial data systems, data architecture, and pipeline reconstruction**, with a focus on transforming complex, undocumented data environments into scalable decision infrastructure.  
+Data Engineer specializing in **financial data systems, data architecture, and pipeline reconstruction**, focused on restoring reliability in complex, undocumented data environments and enabling production-grade decision systems.
 
-**MS Data Science — Worcester Polytechnic Institute**  
-**Wellington Management (Technology / Data Engineering)**  
+**MS Data Science — Worcester Polytechnic Institute**
+**Wellington Management — Data Engineering / Data Architecture**
 
 📎 [LinkedIn](https://www.linkedin.com/in/cam-morreale99)
 
 ---
 
-## 🧠 Core Focus  
+## 🧠 Core Focus
 
-- Data Architecture & Schema Reconstruction  
-- SQL Pipeline Debugging & Recovery  
-- Scalable Data Ingestion (Async / API-driven systems)  
-- Financial Data Systems & Investment Workflows  
-- End-to-End Data → Decision Infrastructure  
+* Data Architecture & Schema Reconstruction
+* SQL Pipeline Debugging & Recovery
+* Scalable Data Ingestion (Async / API-driven systems)
+* Financial Data Systems & Investment Workflows
+* End-to-End Data → Decision Infrastructure
 
 ---
 
-## 🔥 Professional Work  
+## 🔥 Professional Work
 
-### Wellington Management — Data Engineering & Data Architecture Intern  
-*June 2025 – August 2025 | Boston, MA*  
+### Wellington Management — Data Engineering & Data Architecture Intern
+
+*June 2025 – August 2025 | Boston, MA*
 
 Reconstructed the data architecture powering a **$153B investment decision platform** used by ~160 investment professionals across 23 countries, enabling migration from a legacy Excel workflow to a production Python system.
 
-#### Key Contributions  
+#### Key Contributions
 
-- Reverse-engineered an **undocumented Oracle database (~250 tables)** to identify relational structure, key datasets, and data dependencies  
-- Traced SQL execution paths to diagnose a **critical pipeline failure**, identifying a missing upstream dependency blocking system execution  
-- Restored end-to-end pipeline functionality, unblocking development of the production decision platform  
-- Reconstructed the **relational schema supporting the analytics layer**, aligning SQL transformations with actual data structure  
-- Co-engineered an **analytics override framework** enabling controlled parameter adjustments with validation and auditability  
+* Reverse-engineered an **undocumented Oracle database (~250 tables)** to identify relational structure, key datasets, and data dependencies
+* Diagnosed a **critical SQL pipeline failure** by tracing execution dependencies and identifying a missing upstream dataset
+* Restored **end-to-end pipeline execution**, enabling development of the production decision platform
+* Reconstructed the **relational schema supporting analytics workflows**, aligning SQL transformations with the underlying data model
+* Co-engineered an **analytics override framework** enabling controlled parameter adjustments with validation and auditability
 
-#### Impact  
+#### Impact
 
-- Enabled platform delivering **~$8M annual operational efficiency gains**  
-- Replaced fragile spreadsheet workflows with structured, production-grade data pipelines  
-- Established the first coherent map of system-wide data dependencies  
+* Supported a platform associated with **$8.06M in annual operational efficiency gains**
+* Replaced spreadsheet-driven workflows with structured, production-grade data pipelines
+* Established a coherent map of system-wide data dependencies
 
 📄 [Full Technical Writeup](./wellington/technical-writeup.md)
 
 ---
 
-## ⚙️ Projects  
+## ⚙️ Projects
 
-### BoardGameGeek Data Platform  
+### BoardGameGeek Data Platform
 
 End-to-end system integrating **asynchronous data ingestion, relational modeling, and transaction workflows** across a full-stack architecture.
 
-#### Data Engineering  
+#### Data Engineering
 
-- Built an **async Python ELT pipeline (aiohttp)** to collect marketplace data for ~150 games  
-- Implemented **rate-limit handling, retry logic, and concurrent request execution**  
-- Designed preprocessing workflows for **data cleaning, normalization, and schema alignment**  
-- Reindexed ranking systems and validated data integrity across merged datasets  
+* Developed an **async Python ELT pipeline (aiohttp)** to collect marketplace data for ~150 games
+* Implemented **rate-limit handling, retry logic, and concurrent execution** to ensure reliable ingestion
+* Structured preprocessing workflows for **data cleaning, normalization, and schema alignment**
+* Reindexed ranking systems and validated data integrity across merged datasets
 
-#### Data Modeling  
+#### Data Modeling
 
-- Designed a **recursive relational schema** to represent game reimplementations  
-- Built preprocessing pipelines to generate parent–child mappings between entities  
+* Designed a **recursive relational schema** to represent game reimplementations
+* Generated preprocessing pipelines to produce **parent–child entity relationships**
 
-#### Backend + Frontend  
+#### Backend + Frontend
 
-- Developed **AWS Lambda serverless function** for account balance updates  
-- Built React-based checkout workflow with:  
-  - cart state management  
-  - balance validation  
-  - transaction submission  
+* Engineered an **AWS Lambda serverless function** for account balance updates
+* Built a React-based checkout workflow with cart state management, validation, and transaction handling
 
 📄 [Full Technical Writeup](./bgg/technical-writeup.md)
 
 ---
 
-### Oasis — EasyA x Polkadot Hackathon 🥇 1st Place  
+### Oasis — EasyA x Polkadot Hackathon 🥇 1st Place
 
-Designed a decentralized governance platform implementing:  
+Architected and implemented a decentralized governance platform featuring:
 
-- DAO-based voting mechanisms  
-- Token incentive structures  
-- Smart contract-based governance workflows  
+* DAO-based voting mechanisms
+* Token incentive structures
+* Smart contract-based governance workflows
 
 ---
 
-## 📊 Research  
+## 📊 Research
 
-### Quantitative Market Modeling — WPI IQP  
+### Quantitative Market Modeling — WPI IQP
 
 Developed and evaluated trading strategies using live simulation environments.
 
-- Speculative strategy: **+24.73% return**  
-- Fundamentals-driven strategy: **+9.20% return**  
-- Benchmark (S&P 500): **+1.36%**  
+* Speculative strategy: **+24.73% return**
+* Fundamentals-driven strategy: **+9.20% return**
+* Benchmark (S&P 500): **+1.36%**
 
-Demonstrates applied understanding of:  
-- market behavior  
-- risk management  
-- strategy evaluation  
+Demonstrates applied understanding of market behavior, risk management, and strategy evaluation.
 
 📄 [Co-Authored Paper](./research/quantitative-market-modeling.pdf)
 
 ---
 
-### Decentralized IoT Data Architecture — WPI MQP (Embue)  
+### Decentralized IoT Data Architecture — WPI MQP (Embue)
 
-Designed system architecture for **secure, verifiable IoT data pipelines** combining blockchain and machine learning.
+Designed and implemented system architecture for **secure, verifiable IoT data pipelines** combining blockchain and machine learning.
 
-- Implemented **GnuPG encryption workflows**  
-- Integrated **IPFS + Filecoin** for decentralized storage  
-- Designed architecture for **immutable, timestamped data verification**  
+* Implemented **GnuPG encryption workflows**
+* Integrated **IPFS + Filecoin** for decentralized storage
+* Designed architecture for **immutable, timestamped data verification**
 
 📄 [Co-Authored Paper](./research/decentralized-iot-architecture.pdf)
 
 ---
 
-## 🧠 How I Think  
+## 🧠 How I Think
 
-### Debugging Approach  
-- Trace systems **end-to-end before modifying components**  
-- Identify **upstream dependencies first**  
-- Validate assumptions against actual data behavior  
+### Debugging Approach
 
-### System Design Philosophy  
-- Data integrity > short-term convenience  
-- Prefer **simple, explainable architectures**  
-- Build for **observability and failure detection**  
+* Trace systems **end-to-end before modifying components**
+* Identify **upstream dependencies first**
+* Validate assumptions against actual data behavior
 
-### Engineering Principles  
-- Schema clarity is foundational to reliable systems  
-- Pipelines should be reproducible and auditable  
-- Most failures originate from **hidden data dependencies**  
+### System Design Philosophy
+
+* Data integrity > short-term convenience
+* Prefer **simple, explainable architectures**
+* Build for **observability and failure detection**
+
+### Engineering Principles
+
+* Schema clarity is foundational to reliable systems
+* Pipelines should be reproducible and auditable
+* Most failures originate from **hidden data dependencies**
 
 ---
 
-## 🎯 Career Focus  
+## 🎯 Career Focus
 
-Targeting roles in:  
+Targeting roles in:
 
-- Data Engineering (Finance / Asset Management)  
-- Data Infrastructure & Platform Engineering  
-- Financial Data Systems & Decision Platforms  
+* Data Engineering (Finance / Asset Management)
+* Data Infrastructure & Platform Engineering
+* Financial Data Systems & Decision Platforms
+
