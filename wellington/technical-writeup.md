@@ -12,6 +12,14 @@ I reverse-engineered the data architecture, diagnosed and restored a critical SQ
 
 ---
 
+## System Overview
+
+<img width="750" height="500" alt="architecture" src="https://github.com/user-attachments/assets/23c612b6-2000-48d9-9e9a-f072d247d65d" />
+
+*Reconstructed a broken data architecture and restored pipeline execution for a $153B investment platform, enabling ~$8.05M in annual efficiency gains.*
+
+---
+
 ## Problem
 
 The system’s data layer originated from spreadsheet-based logic translated into SQL without a formal schema or documentation.
