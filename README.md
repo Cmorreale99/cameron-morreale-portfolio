@@ -8,7 +8,7 @@ Building financial data systems, repairing broken pipelines, and transforming co
 ![AWS](https://img.shields.io/badge/AWS-Lambda-orange)
 ![Focus](https://img.shields.io/badge/Focus-Financial%20Data%20Systems-black)
 
-Data Engineer specializing in **financial data systems, data architecture, and pipeline reconstruction**, focused on restoring reliability in complex, undocumented data environments and enabling production-grade decision systems.
+Data Engineer specializing in **financial data systems, data architecture, and pipeline reconstruction**, with experience restoring production-critical pipelines and enabling decision systems in complex, undocumented environments.
 
 **MS Data Science — Worcester Polytechnic Institute**
 **Wellington Management — Data Engineering / Data Architecture**
@@ -28,6 +28,8 @@ Data Engineer specializing in **financial data systems, data architecture, and p
 ---
 
 ## 🔥 Professional Work
+
+**Flagship Project — Reconstructed a broken data architecture and restored pipeline execution for a $153B investment platform (~$8.06M annual impact)**
 
 ### Wellington Management — Data Engineering & Data Architecture Intern
 
@@ -57,6 +59,8 @@ Reconstructed the data architecture powering a **$153B investment decision platf
 
 ### BoardGameGeek Data Platform
 
+**Async Data Pipeline + Relational Modeling for Marketplace & Ratings Data**
+
 End-to-end system integrating **asynchronous data ingestion, relational modeling, and transaction workflows** across a full-stack architecture.
 
 #### Data Engineering
@@ -80,19 +84,11 @@ End-to-end system integrating **asynchronous data ingestion, relational modeling
 
 ---
 
-### Oasis — EasyA x Polkadot Hackathon 🥇 1st Place
-
-Architected and implemented a decentralized governance platform featuring:
-
-* DAO-based voting mechanisms
-* Token incentive structures
-* Smart contract-based governance workflows
-
----
-
 ## 📊 Research
 
 ### Quantitative Market Modeling — WPI IQP
+
+**Trading Strategy Development & Performance Evaluation**
 
 Developed and evaluated trading strategies using live simulation environments.
 
@@ -107,6 +103,8 @@ Demonstrates applied understanding of market behavior, risk management, and stra
 ---
 
 ### Decentralized IoT Data Architecture — WPI MQP (Embue)
+
+**Secure, Verifiable Data Pipelines using Blockchain + ML**
 
 Designed and implemented system architecture for **secure, verifiable IoT data pipelines** combining blockchain and machine learning.
 
