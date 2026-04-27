@@ -14,7 +14,7 @@ Data Engineer specializing in financial data systems, data architecture, and pip
 
 ---
 
-**MS Data Science — Worcester Polytechnic Institute**
+**MS Data Science — Worcester Polytechnic Institute**<br>
 **Wellington Management — Data Engineering / Data Architecture**
 
 📎 [LinkedIn](https://www.linkedin.com/in/cam-morreale99)
