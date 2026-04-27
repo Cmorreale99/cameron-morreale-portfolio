@@ -14,7 +14,7 @@ Data Engineer specializing in financial data systems, data architecture, and pip
 
 ---
 
-**MS Data Science — Worcester Polytechnic Institute**<br>
+**MS Data Science — Worcester Polytechnic Institute**
 **Wellington Management — Data Engineering / Data Architecture**
 
 📎 [LinkedIn](https://www.linkedin.com/in/cam-morreale99)
@@ -33,71 +33,91 @@ Data Engineer specializing in financial data systems, data architecture, and pip
 
 ## 🔥 Professional Work
 
-### 🚀 Flagship Project
-
-## Wellington Management — Data Architecture & Pipeline Recovery
+### 🚀 Wellington Management — Data Architecture & Pipeline Recovery
 
 <p align="center">
   <img src="./assets/architecture/wellington_architecture.png" width="700"/>
 </p>
 
-**Reconstructed the data architecture behind a $153B investment platform used by ~160 investment professionals.**
+**Reconstructed the data architecture behind a $153B investment decision platform used by ~160 investment professionals.**
 
 ### Problem
 
-* Legacy Excel workflow → Python platform migration
-* ~250-table Oracle system with no schema or lineage
-* SQL pipeline failed before execution
+A legacy Excel-driven investment workflow was being migrated into a production Python platform, but the underlying Oracle environment contained ~250 tables with no schema, no documented relationships, and no clear lineage. The SQL pipeline failed before the system could execute, indicating a deeper architectural dependency issue.
 
 ### Intervention
 
-* Reverse-engineered SQL + embedded business logic
-* Reduced system to ~25 core tables
-* Traced failure to missing upstream dataset
-* Restored pipeline execution
+Reverse-engineered SQL logic alongside embedded Excel business rules to reconstruct the system’s implicit data model. Narrowed the environment to ~25 core tables, inferred relationships through dependency tracing, and followed execution paths to identify a missing upstream dataset. Restored access and re-enabled end-to-end pipeline execution.
 
 ### Impact
 
-* Enabled continuation of production platform build
-* ~$153B assets supported
-* ~$8M annual operational efficiency gains
+* Restored pipeline execution without redesigning the system
+* Enabled continuation of the production decision platform build
+* Supported ~160 investment professionals across ~$153B in assets
+* Contributed to a platform associated with ~$8M in annual operational efficiency gains
 
 📄 [Full Technical Writeup](./wellington/technical-writeup.md)
 
 ---
 
-## ⚙️ Projects
-
-### 📊 MassDEP — Document Intelligence & Analytics
+### 📊 MassDEP — Document Intelligence & Analytics System
 
 <p align="center">
   <img src="./assets/architecture/massdep_architecture.png" width="700"/>
 </p>
 
-**Unstructured Reports → Validated Data → Power BI Dashboards**
+**Unstructured Environmental Reports → Validated Data → Power BI Analytics**
 
 ### Problem
 
-Environmental reports (PFAS, shipment data) stored in inconsistent free-text PDFs required manual, error-prone extraction
+Environmental construction reports contained critical data such as PFAS metrics and shipment quantities embedded in inconsistent free-text formats. Manual extraction required document-by-document interpretation, limiting scalability and introducing inconsistencies in reporting.
 
 ### System Built
 
-* Retrieval + structured extraction pipeline
-* Validation layers (rules, disambiguation, verification)
-* Grounded outputs tied to source documents
+Architected a multi-stage pipeline converting unstructured documents into structured datasets. Implemented semantic retrieval, structured extraction, and validation layers combining rule-based checks, contextual disambiguation, and post-generation verification to ensure outputs were grounded and reliable.
 
 ### Analytics Layer
 
-* Power BI dashboards
-* Page-level inspection + readability tracking
-* System performance visualization
+Integrated outputs into Power BI dashboards to enable stakeholder interaction with processed data. Designed page-level inspection, readability tracking, and system performance visualization to improve transparency and usability.
 
 ### Impact
 
-* ~97.4% document processing coverage
-* ~40% reduction in manual reporting effort
+* Achieved ~97.4% document processing coverage
+* Reduced manual reporting effort by an estimated ~40%
+* Enabled scalable analysis across previously unstructured datasets
+
+📄 [Technical Writeup](./massdep/technical-writeup.md)
 
 ---
+
+### 🔗 Embue — Distributed IoT Data Infrastructure (Industry Project)
+
+<p align="center">
+  <img src="./assets/architecture/embue_architecture.png" width="700"/>
+</p>
+
+**Secure, Verifiable Data Pipelines Using Decentralized Infrastructure**
+
+### Problem
+
+Centralized IoT storage created single points of failure and weak guarantees around data integrity, auditability, and tamper resistance.
+
+### System Built
+
+Designed a layered architecture separating encryption, storage, verification, and access control. Data was encrypted at ingestion, stored via IPFS, and verified through Filecoin/blockchain infrastructure, ensuring integrity without sacrificing scalability.
+
+### Impact
+
+* Established tamper-resistant, verifiable data pipelines
+* Enabled scalable storage with independent integrity guarantees
+* Created clear separation between storage and verification layers
+
+📄 [Co-Authored Paper](./research/decentralized-iot-architecture.pdf)
+📁 [Project Folder](./embue/)
+
+---
+
+## ⚙️ Projects
 
 ### 🎲 BoardGameGeek — Data Platform
 
@@ -105,99 +125,62 @@ Environmental reports (PFAS, shipment data) stored in inconsistent free-text PDF
   <img src="./assets/architecture/bgg_pipeline_architecture.png" width="700"/>
 </p>
 
-**Async Data Pipeline + Relational Modeling**
+**Async Data Pipeline + Relational Modeling for Marketplace & Ratings Data**
 
 ### Problem
 
-Heterogeneous APIs and inconsistent marketplace, rating, and metadata formats
+Marketplace prices, ratings, and metadata were distributed across heterogeneous APIs with rate limits and inconsistent formats.
 
 ### System Built
 
-* Async ingestion pipeline (aiohttp)
-* Rate-limit handling, retries, concurrency
-* Data normalization + validation
-
-### Data Modeling
-
-* Recursive relational schema for game relationships
+Developed an async ingestion pipeline with bounded concurrency, retry logic, and rate-limit handling. Designed preprocessing workflows for cleaning, normalization, and validation, and built a recursive relational schema for entity relationships.
 
 ### Impact
 
-* Structured, queryable datasets
-* Connected backend pipelines to frontend workflows
+* Produced structured, queryable datasets
+* Enabled integration between backend pipelines and frontend workflows
+
+📄 [Technical Writeup](./bgg/technical-writeup.md)
 
 ---
 
-### 🔗 Embue — Distributed IoT Data Infrastructure
-
-<p align="center">
-  <img src="./assets/architecture/embue_architecture.png" width="700"/>
-</p>
-
-**Secure, Verifiable Data Pipelines**
-
-### Problem
-
-Centralized IoT storage created single points of failure and no integrity guarantees
-
-### System Built
-
-* Encryption → IPFS storage → blockchain verification → access control
-* Separation of storage vs verification layers
-
-### Impact
-
-* Scalable, tamper-resistant architecture
-* Auditability without on-chain data bottlenecks
-
----
-
-### 🌍 OneWorld — Carbon Market Infrastructure
+### 🌍 OneWorld — Carbon Market Infrastructure (Top 3 / 100+ Teams)
 
 <p align="center">
   <img src="./assets/architecture/oneworld_architecture.png" width="700"/>
 </p>
 
-**Tokenized Emissions System (Top 3 / 100+ Teams)**
+### System
 
-### Problem
-
-Opaque, weakly enforced cap-and-trade systems
-
-### System Built
-
-* Emissions as programmable financial assets
-* Deterministic supply decay
-* Tiered pricing + incentive alignment
+Designed a tokenized emissions system where permits function as programmable financial assets with deterministic supply decay, time constraints, and tiered pricing.
 
 ### Impact
 
-* Policy translated into enforceable infrastructure
-* Transparent, auditable emissions system
+* Top 3 out of 100+ teams
+* Translated policy constraints into enforceable infrastructure
+* Embedded auditability and incentive alignment into system design
+
+📁 [Project Folder](./oneworld/)
+📄 [Technical Writeup](./oneworld/technical-writeup.md)
 
 ---
 
-### 🧩 Oasis — Decentralized Social Platform
+### 🧩 Oasis — Decentralized Social Platform (1st / 100+ Teams)
 
 <p align="center">
   <img src="./assets/architecture/oasis_architecture.png" width="700"/>
 </p>
 
-**DAO Governance + Token Incentives (1st / 100+ Teams)**
+### System
 
-### Problem
-
-Centralized platforms misalign incentives and concentrate control
-
-### System Built
-
-* DAO voting + staking + reward distribution
-* Smart contracts + decentralized storage
+Built a decentralized platform using DAO governance, staking mechanisms, and token-based rewards to align user incentives with platform behavior.
 
 ### Impact
 
-* Full system built in 48 hours
-* Demonstrated rapid architecture + product execution
+* 1st place out of 100+ teams
+* Delivered full system architecture under 48-hour constraints
+
+📁 [Project Folder](./oasis/)
 
 ---
 
@@ -226,6 +209,9 @@ Targeting roles in:
 
 * [LinkedIn](https://www.linkedin.com/in/cam-morreale99)
 * [Wellington Technical Writeup](./wellington/technical-writeup.md)
-* [Wellington Project Folder](./wellington/)
+* [MassDEP Technical Writeup](./massdep/technical-writeup.md)
+* [Embue Paper](./research/decentralized-iot-architecture.pdf)
+* [OneWorld Project](./oneworld/)
 * [BoardGameGeek Project](./bgg/)
 * [Oasis Project](./oasis/)
+
