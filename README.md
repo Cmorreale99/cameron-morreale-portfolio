@@ -1,6 +1,10 @@
 # Cameron Morreale — Data Engineering Portfolio
 
-Building financial data systems, repairing broken pipelines, and transforming complex, undocumented data environments into scalable decision infrastructure.
+**Reverse-engineering broken, ambiguous data systems into reliable decision infrastructure.**
+
+Data Engineer specializing in financial data systems, data architecture, and pipeline reconstruction—translating fragmented business logic and undocumented workflows into structured, auditable systems that support real decision-making.
+
+---
 
 ![Python](https://img.shields.io/badge/Python-Data%20Engineering-blue)
 ![SQL](https://img.shields.io/badge/SQL-Advanced-green)
@@ -8,7 +12,7 @@ Building financial data systems, repairing broken pipelines, and transforming co
 ![AWS](https://img.shields.io/badge/AWS-Lambda-orange)
 ![Focus](https://img.shields.io/badge/Focus-Financial%20Data%20Systems-black)
 
-Data Engineer specializing in **financial data systems, data architecture, and pipeline reconstruction**, with experience restoring production-critical pipelines and enabling decision systems in complex, undocumented environments.
+---
 
 **MS Data Science — Worcester Polytechnic Institute**
 **Wellington Management — Data Engineering / Data Architecture**
@@ -21,7 +25,7 @@ Data Engineer specializing in **financial data systems, data architecture, and p
 
 * Data Architecture & Schema Reconstruction
 * SQL Pipeline Debugging & Recovery
-* Scalable Data Ingestion (Async / API-driven systems)
+* Unstructured Data → Structured Analytics Pipelines
 * Financial Data Systems & Investment Workflows
 * End-to-End Data → Decision Infrastructure
 
@@ -29,112 +33,164 @@ Data Engineer specializing in **financial data systems, data architecture, and p
 
 ## 🔥 Professional Work
 
-**Flagship Project — Reconstructed a broken data architecture and restored pipeline execution for a $153B investment platform (~$8.06M annual impact)**
+### 🚀 Wellington Management — Data Architecture & Pipeline Recovery
 
-### Wellington Management — Data Engineering & Data Architecture Intern
+<p align="center">
+  <img src="./assets/images/wellington_architecture.png" width="700"/>
+</p>
 
-*June 2025 – August 2025 | Boston, MA*
+**Reconstructed the data architecture behind a $153B investment decision platform used by ~160 investment professionals.**
 
-Reconstructed the data architecture powering a **$153B investment decision platform** used by ~160 investment professionals across 23 countries, enabling migration from a legacy Excel workflow to a production Python system.
+### Problem
 
-#### Key Contributions
+A legacy Excel-driven investment workflow was being migrated into a production Python platform, but the underlying Oracle environment contained ~250 tables with no schema, no documented relationships, and no clear lineage. The SQL pipeline failed before the system could execute, indicating a deeper architectural dependency issue.
 
-* Reverse-engineered an **undocumented Oracle database (~250 tables)** to identify relational structure, key datasets, and data dependencies
-* Diagnosed a **critical SQL pipeline failure** by tracing execution dependencies and identifying a missing upstream dataset
-* Restored **end-to-end pipeline execution**, enabling development of the production decision platform
-* Reconstructed the **relational schema supporting analytics workflows**, aligning SQL transformations with the underlying data model
-* Co-engineered an **analytics override framework** enabling controlled parameter adjustments with validation and auditability
+### Intervention
 
-#### Impact
+Reverse-engineered SQL logic alongside embedded Excel business rules to reconstruct the system’s implicit data model. Narrowed the environment to ~25 core tables, inferred relationships through dependency tracing, and followed execution paths to identify a missing upstream dataset. Restored access and re-enabled end-to-end pipeline execution.
 
-* Supported a platform associated with **$8.06M in annual operational efficiency gains**
-* Replaced spreadsheet-driven workflows with structured, production-grade data pipelines
-* Established a coherent map of system-wide data dependencies
+### Impact
+
+* Restored pipeline execution without redesigning the system
+* Enabled continuation of the production decision platform build
+* Supported ~160 investment professionals across ~$153B in assets
+* Contributed to a platform associated with ~$8M in annual operational efficiency gains
 
 📄 [Full Technical Writeup](./wellington/technical-writeup.md)
 
 ---
 
+### 📊 MassDEP — Document Intelligence & Analytics System
+
+<p align="center">
+  <img src="./assets/images/massdep_architecture.png" width="700"/>
+</p>
+
+**Unstructured Environmental Reports → Validated Data → Power BI Analytics**
+
+### Problem
+
+Environmental construction reports contained critical data such as PFAS metrics and shipment quantities embedded in inconsistent free-text formats. Manual extraction required document-by-document interpretation, limiting scalability and introducing inconsistencies in reporting.
+
+### System Built
+
+Architected a multi-stage pipeline converting unstructured documents into structured datasets. Implemented semantic retrieval, structured extraction, and validation layers combining rule-based checks, contextual disambiguation, and post-generation verification to ensure outputs were grounded and reliable.
+
+### Analytics Layer
+
+Integrated outputs into Power BI dashboards to enable stakeholder interaction with processed data. Designed page-level inspection, readability tracking, and system performance visualization to improve transparency and usability.
+
+### Impact
+
+* Achieved ~97.4% document processing coverage
+* Reduced manual reporting effort by an estimated ~40%
+* Enabled scalable analysis across previously unstructured datasets
+
+📄 [Technical Writeup](./massdep/technical-writeup.md)
+
+---
+
+### 🔗 Embue — Distributed IoT Data Infrastructure (Industry Project)
+
+<p align="center">
+  <img src="./assets/images/embue_architecture.png" width="700"/>
+</p>
+
+**Secure, Verifiable Data Pipelines Using Decentralized Infrastructure**
+
+### Problem
+
+Centralized IoT storage created single points of failure and weak guarantees around data integrity, auditability, and tamper resistance.
+
+### System Built
+
+Designed a layered architecture separating encryption, storage, verification, and access control. Data was encrypted at ingestion, stored via IPFS, and verified through Filecoin/blockchain infrastructure, ensuring integrity without sacrificing scalability.
+
+### Impact
+
+* Established tamper-resistant, verifiable data pipelines
+* Enabled scalable storage with independent integrity guarantees
+* Created clear separation between storage and verification layers
+
+📄 [Co-Authored Paper](./research/decentralized-iot-architecture.pdf)
+📁 [Project Folder](./embue/)
+
+---
+
 ## ⚙️ Projects
 
-### BoardGameGeek Data Platform
+### 🎲 BoardGameGeek — Data Platform
+
+<p align="center">
+  <img src="./assets/images/bgg_pipeline_architecture.png" width="700"/>
+</p>
 
 **Async Data Pipeline + Relational Modeling for Marketplace & Ratings Data**
 
-End-to-end system integrating **asynchronous data ingestion, relational modeling, and transaction workflows** across a full-stack architecture.
+### Problem
 
-#### Data Engineering
+Marketplace prices, ratings, and metadata were distributed across heterogeneous APIs with rate limits and inconsistent formats.
 
-* Developed an **async Python ELT pipeline (aiohttp)** to collect marketplace data for ~150 games
-* Implemented **rate-limit handling, retry logic, and concurrent execution** to ensure reliable ingestion
-* Structured preprocessing workflows for **data cleaning, normalization, and schema alignment**
-* Reindexed ranking systems and validated data integrity across merged datasets
+### System Built
 
-#### Data Modeling
+Developed an async ingestion pipeline with bounded concurrency, retry logic, and rate-limit handling. Designed preprocessing workflows for cleaning, normalization, and validation, and built a recursive relational schema for entity relationships.
 
-* Designed a **recursive relational schema** to represent game reimplementations
-* Generated preprocessing pipelines to produce **parent–child entity relationships**
+### Impact
 
-#### Backend + Frontend
+* Produced structured, queryable datasets
+* Enabled integration between backend pipelines and frontend workflows
 
-* Engineered an **AWS Lambda serverless function** for account balance updates
-* Built a React-based checkout workflow with cart state management, validation, and transaction handling
-
-📄 [Full Technical Writeup](./bgg/technical-writeup.md)
+📄 [Technical Writeup](./bgg/technical-writeup.md)
 
 ---
 
-## 📊 Research
+### 🌍 OneWorld — Carbon Market Infrastructure (Top 3 / 100+ Teams)
 
-### Quantitative Market Modeling — WPI IQP
+<p align="center">
+  <img src="./assets/images/oneworld_architecture.png" width="700"/>
+</p>
 
-**Trading Strategy Development & Performance Evaluation**
+### System
 
-Developed and evaluated trading strategies using live simulation environments.
+Designed a tokenized emissions system where permits function as programmable financial assets with deterministic supply decay, time constraints, and tiered pricing.
 
-* Speculative strategy: **+24.73% return**
-* Fundamentals-driven strategy: **+9.20% return**
-* Benchmark (S&P 500): **+1.36%**
+### Impact
 
-Demonstrates applied understanding of market behavior, risk management, and strategy evaluation.
+* Top 3 out of 100+ teams
+* Translated policy constraints into enforceable infrastructure
+* Embedded auditability and incentive alignment into system design
 
-📄 [Co-Authored Paper](./research/quantitative-market-modeling.pdf)
-
----
-
-### Decentralized IoT Data Architecture — WPI MQP (Embue)
-
-**Secure, Verifiable Data Pipelines using Blockchain + ML**
-
-Designed and implemented system architecture for **secure, verifiable IoT data pipelines** combining blockchain and machine learning.
-
-* Implemented **GnuPG encryption workflows**
-* Integrated **IPFS + Filecoin** for decentralized storage
-* Designed architecture for **immutable, timestamped data verification**
-
-📄 [Co-Authored Paper](./research/decentralized-iot-architecture.pdf)
+📁 [Project Folder](./oneworld/)
+📄 [Technical Writeup](./oneworld/technical-writeup.md)
 
 ---
 
-## 🧠 How I Think
+### 🧩 Oasis — Decentralized Social Platform (1st / 100+ Teams)
 
-### Debugging Approach
+<p align="center">
+  <img src="./assets/images/oasis_architecture.png" width="700"/>
+</p>
 
-* Trace systems **end-to-end before modifying components**
-* Identify **upstream dependencies first**
-* Validate assumptions against actual data behavior
+### System
 
-### System Design Philosophy
+Built a decentralized platform using DAO governance, staking mechanisms, and token-based rewards to align user incentives with platform behavior.
 
-* Data integrity > short-term convenience
-* Prefer **simple, explainable architectures**
-* Build for **observability and failure detection**
+### Impact
 
-### Engineering Principles
+* 1st place out of 100+ teams
+* Delivered full system architecture under 48-hour constraints
 
-* Schema clarity is foundational to reliable systems
-* Pipelines should be reproducible and auditable
-* Most failures originate from **hidden data dependencies**
+📁 [Project Folder](./oasis/)
+
+---
+
+## 🧠 How I Work
+
+* Ambiguous workflow → structured system
+* Business logic → data model
+* Broken pipeline → diagnosed dependency → restored execution
+* Raw data → validated datasets → usable analytics
+* Experimental system → controlled, auditable workflow
 
 ---
 
@@ -142,7 +198,20 @@ Designed and implemented system architecture for **secure, verifiable IoT data p
 
 Targeting roles in:
 
+* Technical Business Analyst (Data Systems)
 * Data Engineering (Finance / Asset Management)
-* Data Infrastructure & Platform Engineering
-* Financial Data Systems & Decision Platforms
+* Analytics Engineering / Data Platforms
+* Financial Data Systems & Decision Infrastructure
+
+---
+
+## 🔗 Links
+
+* [LinkedIn](https://www.linkedin.com/in/cam-morreale99)
+* [Wellington Technical Writeup](./wellington/technical-writeup.md)
+* [MassDEP Technical Writeup](./massdep/technical-writeup.md)
+* [Embue Paper](./research/decentralized-iot-architecture.pdf)
+* [OneWorld Project](./oneworld/)
+* [BoardGameGeek Project](./bgg/)
+* [Oasis Project](./oasis/)
 
