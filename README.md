@@ -1,6 +1,10 @@
 # Cameron Morreale — Data Engineering Portfolio
 
-Building financial data systems, repairing broken pipelines, and transforming complex, undocumented data environments into scalable decision infrastructure.
+**Reverse-engineering broken, ambiguous data systems into reliable decision infrastructure.**
+
+Data Engineer specializing in financial data systems, data architecture, and pipeline reconstruction—translating fragmented business logic and undocumented workflows into structured, auditable systems that support real decision-making.
+
+---
 
 ![Python](https://img.shields.io/badge/Python-Data%20Engineering-blue)
 ![SQL](https://img.shields.io/badge/SQL-Advanced-green)
@@ -8,121 +12,220 @@ Building financial data systems, repairing broken pipelines, and transforming co
 ![AWS](https://img.shields.io/badge/AWS-Lambda-orange)
 ![Focus](https://img.shields.io/badge/Focus-Financial%20Data%20Systems-black)
 
-# Cameron Morreale: Business Logic Into Reliable Data Systems
+---
 
-I operate at the business-data boundary: ambiguous workflows, undocumented systems, and unreliable data paths into structured, auditable data systems. I build pipelines, data models, validation layers, and analytics interfaces that help stakeholders trust the numbers they use to make decisions.
+**MS Data Science — Worcester Polytechnic Institute**<br>
+**Wellington Management — Data Engineering / Data Architecture**
 
-My strongest signal is translating fragmented business logic into reliable architecture: reverse-engineering source systems, diagnosing pipeline failures, structuring messy inputs, and delivering analytics-ready outputs.
-
-**MS Data Science: Worcester Polytechnic Institute**  
-**Wellington Management: Data Engineering / Data Architecture**
-
-[LinkedIn](https://www.linkedin.com/in/cam-morreale99)
+📎 [LinkedIn](https://www.linkedin.com/in/cam-morreale99)
 
 ---
 
-## Flagship Project
+## 🧠 Core Focus
 
-### Wellington Management: Data Architecture and Pipeline Recovery
-
-Reconstructed the data architecture behind an investment decision platform supporting ~$153B in assets and ~160 investment professionals.
-
-- **Problem:** A legacy Excel-driven investment workflow was being migrated into a production Python platform, but the Oracle data environment had ~250 tables, no schema, no documented relationships, and no clear lineage. The SQL pipeline failed before the new system could run.
-- **Intervention:** Reverse-engineered SQL and embedded Excel business logic, narrowed the environment to ~25 prioritized core tables, inferred relationships, and traced the execution path that exposed a missing upstream dataset.
-- **Impact:** Restored pipeline execution with minimal modification, enabled the team to continue building the production decision platform, and supported an analytics override framework with validation and auditability.
-- **Business signal:** Platform supported ~$153B in assets and was associated with ~$8M in annual operational efficiency gains.
-- **Useful tools:** Oracle SQL, Python, Pandas, ipywidgets.
-
-[Full technical writeup](./wellington/technical-writeup.md)
+* Data Architecture & Schema Reconstruction
+* SQL Pipeline Debugging & Recovery
+* Unstructured Data → Structured Analytics Pipelines
+* Financial Data Systems & Investment Workflows
+* End-to-End Data → Decision Infrastructure
 
 ---
 
-## Selected Projects
+## 🔥 Professional Work
 
-### Wellington Management
+### 🚀 Flagship Project
 
-Data architecture and pipeline recovery for a production investment decision platform.
+## Wellington Management — Data Architecture & Pipeline Recovery
 
-- **Problem:** Fragmented Oracle environment, undocumented lineage, spreadsheet-derived SQL, and a missing upstream dependency that broke pipeline execution.
-- **System built:** Reconstructed relational structure from SQL and Excel logic, mapped core dependencies, restored access to the missing dataset, and contributed to controlled analytics overrides.
-- **Impact:** Enabled a reliable Python decision platform for ~160 investment professionals supporting ~$153B in assets, with ~$8M estimated annual operational efficiency gain.
-- **Key technologies:** Oracle SQL, Python, Pandas, ipywidgets.
+<p align="center">
+  <img src="./assets/architecture/wellington_architecture.png" width="700"/>
+</p>
 
-### MassDEP
+**Reconstructed the data architecture behind a $153B investment platform used by ~160 investment professionals.**
 
-LLM-based document intelligence system for environmental reporting workflows.
+### Problem
 
-- **Problem:** PFAS metrics, shipment quantities, and environmental report data were embedded in inconsistent free-text PDFs, forcing manual and error-prone extraction.
-- **System built:** On a team, I architected a multi-stage pipeline for retrieval, entity extraction, validation, and post-generation verification. Outputs were integrated into a Power BI analytics layer with page-level inspection, readability tracking, and system performance visualization.
-- **Impact:** Transformed unstructured environmental reports into structured, validated datasets with ~97.4% document processing coverage and an estimated ~40% manual reporting effort reduction.
-- **Key technologies:** RAG, vector embeddings, constrained generation, validation logic, Power BI.
+* Legacy Excel workflow → Python platform migration
+* ~250-table Oracle system with no schema or lineage
+* SQL pipeline failed before execution
 
-### Embue
+### Intervention
 
-Distributed IoT data infrastructure for secure telemetry storage and verification.
+* Reverse-engineered SQL + embedded business logic
+* Reduced system to ~25 core tables
+* Traced failure to missing upstream dataset
+* Restored pipeline execution
 
-- **Problem:** Centralized IoT storage created single points of failure and weak guarantees around integrity, confidentiality, and auditability.
-- **System built:** Designed a layered architecture where telemetry is encrypted, stored through IPFS, verified through Filecoin/blockchain infrastructure, and governed through access-control smart contracts.
-- **Impact:** Separated storage from verification so blockchain handled integrity and auditability while bulk sensor data stayed off-chain for scalability.
-- **Key technologies:** GnuPG, IPFS, Web3.Storage, Filecoin, Lotus, smart contracts.
+### Impact
 
-### BoardGameGeek
+* Enabled continuation of production platform build
+* ~$153B assets supported
+* ~$8M annual operational efficiency gains
 
-Async data platform combining marketplace prices, ratings, metadata, and checkout workflows.
-
-- **Problem:** Marketplace prices, ratings, and game metadata came from heterogeneous sources with rate-limited APIs and inconsistent formats.
-- **System built:** Built a three-stage async ingestion pipeline with bounded concurrency, rate-limit handling, retries, progress tracking, normalization, validation, and a recursive relational model for board game relationships.
-- **Impact:** Produced queryable, integrated board game data and connected it to backend and frontend workflows through AWS Lambda account updates and a React checkout flow.
-- **Key technologies:** Python, aiohttp, relational modeling, AWS Lambda, React.
-
-### OneWorld
-
-Tokenized carbon market infrastructure for programmable emissions permits.
-
-- **Problem:** Traditional cap-and-trade systems suffer from opaque permit allocation, weak enforcement, double-counting risk, and market manipulation.
-- **System built:** Hackathon system that modeled emissions permits as programmable financial assets, with deterministic supply decay, time-period constraints, tiered pricing, and blockchain-based auditability.
-- **Impact:** Placed Top 3 out of 100+ teams and translated policy constraints into enforceable market infrastructure.
-- **Key technologies:** Blockchain infrastructure, token design, incentive modeling, oracle-ready architecture.
-
-### Oasis
-
-Decentralized social platform with DAO governance and tokenized incentives.
-
-- **Problem:** Centralized social platforms concentrate moderation power, weaken user ownership, and misalign incentives between users and platform operators.
-- **System built:** Built in a 48-hour hackathon environment using DAO-based voting, smart contracts, decentralized storage, staking, rewards pools, and token incentives for content participation.
-- **Impact:** Placed 1st out of 100+ teams and showed rapid end-to-end architecture, product thinking, and incentive design under tight constraints.
-- **Key technologies:** Smart contracts, DAO governance, decentralized storage, staking, token rewards.
+📄 [Full Technical Writeup](./wellington/technical-writeup.md)
 
 ---
 
-## Technical Strengths
+## ⚙️ Projects
 
-- **Data systems and architecture:** Reverse-engineer fragmented systems, identify core dependencies, separate storage from verification, and design controlled workflows.
-- **SQL and data modeling:** Infer relational structure, prioritize core tables, map lineage, design recursive models, and align transformations with business logic.
-- **Pipeline engineering:** Diagnose root causes, restore failed execution paths, build async ingestion, handle rate limits, implement retries, and validate merged datasets.
-- **BI and stakeholder analytics:** Turn processed data into decision interfaces through Power BI dashboards, inspection views, performance tracking, and analytics-ready outputs.
-- **RAG and document intelligence:** Extract structured data from inconsistent PDFs using retrieval, entity extraction, constrained generation, validation, and post-generation verification.
-- **Distributed systems and blockchain infrastructure:** Design architectures where encryption, storage, verification, access control, incentives, and auditability have clear boundaries.
+### 📊 MassDEP — Document Intelligence & Analytics
+
+<p align="center">
+  <img src="./assets/architecture/massdep_architecture.png" width="700"/>
+</p>
+
+**Unstructured Reports → Validated Data → Power BI Dashboards**
+
+### Problem
+
+Environmental reports (PFAS, shipment data) stored in inconsistent free-text PDFs required manual, error-prone extraction
+
+### System Built
+
+* Retrieval + structured extraction pipeline
+* Validation layers (rules, disambiguation, verification)
+* Grounded outputs tied to source documents
+
+### Analytics Layer
+
+* Power BI dashboards
+* Page-level inspection + readability tracking
+* System performance visualization
+
+### Impact
+
+* ~97.4% document processing coverage
+* ~40% reduction in manual reporting effort
 
 ---
 
-## How I Work
+### 🎲 BoardGameGeek — Data Platform
 
-- Ambiguous workflow to structured system.
-- Business logic to data model.
-- Broken pipeline to diagnosed dependency and restored execution.
-- Raw documents to validated datasets and stakeholder-usable analytics.
-- Experimental architecture to controlled, auditable workflow.
+<p align="center">
+  <img src="./assets/architecture/bgg_pipeline_architecture.png" width="700"/>
+</p>
 
-I start by tracing how the business process actually works, then map the data dependencies that support it. I prefer systems that are explainable, testable, and usable by the people responsible for decisions.
+**Async Data Pipeline + Relational Modeling**
+
+### Problem
+
+Heterogeneous APIs and inconsistent marketplace, rating, and metadata formats
+
+### System Built
+
+* Async ingestion pipeline (aiohttp)
+* Rate-limit handling, retries, concurrency
+* Data normalization + validation
+
+### Data Modeling
+
+* Recursive relational schema for game relationships
+
+### Impact
+
+* Structured, queryable datasets
+* Connected backend pipelines to frontend workflows
 
 ---
 
-## Links
+### 🔗 Embue — Distributed IoT Data Infrastructure
 
-- [LinkedIn](https://www.linkedin.com/in/cam-morreale99)
-- [Wellington technical writeup](./wellington/technical-writeup.md)
-- [Wellington project folder](./wellington/)
-- [BoardGameGeek project folder](./bgg/)
-- [Oasis project folder](./oasis/)
+<p align="center">
+  <img src="./assets/architecture/embue_architecture.png" width="700"/>
+</p>
 
+**Secure, Verifiable Data Pipelines**
+
+### Problem
+
+Centralized IoT storage created single points of failure and no integrity guarantees
+
+### System Built
+
+* Encryption → IPFS storage → blockchain verification → access control
+* Separation of storage vs verification layers
+
+### Impact
+
+* Scalable, tamper-resistant architecture
+* Auditability without on-chain data bottlenecks
+
+---
+
+### 🌍 OneWorld — Carbon Market Infrastructure
+
+<p align="center">
+  <img src="./assets/architecture/oneworld_architecture.png" width="700"/>
+</p>
+
+**Tokenized Emissions System (Top 3 / 100+ Teams)**
+
+### Problem
+
+Opaque, weakly enforced cap-and-trade systems
+
+### System Built
+
+* Emissions as programmable financial assets
+* Deterministic supply decay
+* Tiered pricing + incentive alignment
+
+### Impact
+
+* Policy translated into enforceable infrastructure
+* Transparent, auditable emissions system
+
+---
+
+### 🧩 Oasis — Decentralized Social Platform
+
+<p align="center">
+  <img src="./assets/architecture/oasis_architecture.png" width="700"/>
+</p>
+
+**DAO Governance + Token Incentives (1st / 100+ Teams)**
+
+### Problem
+
+Centralized platforms misalign incentives and concentrate control
+
+### System Built
+
+* DAO voting + staking + reward distribution
+* Smart contracts + decentralized storage
+
+### Impact
+
+* Full system built in 48 hours
+* Demonstrated rapid architecture + product execution
+
+---
+
+## 🧠 How I Work
+
+* Ambiguous workflow → structured system
+* Business logic → data model
+* Broken pipeline → diagnosed dependency → restored execution
+* Raw data → validated datasets → usable analytics
+* Experimental system → controlled, auditable workflow
+
+---
+
+## 🎯 Career Focus
+
+Targeting roles in:
+
+* Technical Business Analyst (Data Systems)
+* Data Engineering (Finance / Asset Management)
+* Analytics Engineering / Data Platforms
+* Financial Data Systems & Decision Infrastructure
+
+---
+
+## 🔗 Links
+
+* [LinkedIn](https://www.linkedin.com/in/cam-morreale99)
+* [Wellington Technical Writeup](./wellington/technical-writeup.md)
+* [Wellington Project Folder](./wellington/)
+* [BoardGameGeek Project](./bgg/)
+* [Oasis Project](./oasis/)
