@@ -36,7 +36,7 @@ Data Engineer specializing in financial data systems, data architecture, and pip
 ### 🚀 Wellington Management — Data Architecture & Pipeline Recovery
 
 <p align="center">
-  <img src="./assets/architecture/wellington_architecture.png" width="700"/>
+  <img src="./assets/images/wellington_architecture.png" width="700"/>
 </p>
 
 **Reconstructed the data architecture behind a $153B investment decision platform used by ~160 investment professionals.**
@@ -63,7 +63,7 @@ Reverse-engineered SQL logic alongside embedded Excel business rules to reconstr
 ### 📊 MassDEP — Document Intelligence & Analytics System
 
 <p align="center">
-  <img src="./assets/architecture/massdep_architecture.png" width="700"/>
+  <img src="./assets/images/massdep_architecture.png" width="700"/>
 </p>
 
 **Unstructured Environmental Reports → Validated Data → Power BI Analytics**
@@ -93,7 +93,7 @@ Integrated outputs into Power BI dashboards to enable stakeholder interaction wi
 ### 🔗 Embue — Distributed IoT Data Infrastructure (Industry Project)
 
 <p align="center">
-  <img src="./assets/architecture/embue_architecture.png" width="700"/>
+  <img src="./assets/images/embue_architecture.png" width="700"/>
 </p>
 
 **Secure, Verifiable Data Pipelines Using Decentralized Infrastructure**
@@ -122,7 +122,7 @@ Designed a layered architecture separating encryption, storage, verification, an
 ### 🎲 BoardGameGeek — Data Platform
 
 <p align="center">
-  <img src="./assets/architecture/bgg_pipeline_architecture.png" width="700"/>
+  <img src="./assets/images/bgg_pipeline_architecture.png" width="700"/>
 </p>
 
 **Async Data Pipeline + Relational Modeling for Marketplace & Ratings Data**
@@ -147,7 +147,7 @@ Developed an async ingestion pipeline with bounded concurrency, retry logic, and
 ### 🌍 OneWorld — Carbon Market Infrastructure (Top 3 / 100+ Teams)
 
 <p align="center">
-  <img src="./assets/architecture/oneworld_architecture.png" width="700"/>
+  <img src="./assets/images/oneworld_architecture.png" width="700"/>
 </p>
 
 ### System
@@ -168,7 +168,7 @@ Designed a tokenized emissions system where permits function as programmable fin
 ### 🧩 Oasis — Decentralized Social Platform (1st / 100+ Teams)
 
 <p align="center">
-  <img src="./assets/architecture/oasis_architecture.png" width="700"/>
+  <img src="./assets/images/oasis_architecture.png" width="700"/>
 </p>
 
 ### System
