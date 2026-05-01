@@ -10,6 +10,14 @@ Designed the system architecture for a 48-hour hackathon, connecting a React fro
 
 ---
 
+## System Overview
+
+<p align="center">
+  <img src="../assets/images/oasis_architecture.png" width="700"/>
+</p>
+
+---
+
 ## Key Contributions
 
 - Designed a **decentralized social platform architecture** combining frontend interaction, smart-contract execution, DAO governance, and decentralized storage  
