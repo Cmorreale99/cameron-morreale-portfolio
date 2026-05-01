@@ -112,7 +112,7 @@ Designed a layered architecture separating encryption, storage, verification, an
 * Enabled scalable storage with independent integrity guarantees
 * Created clear separation between storage and verification layers
 
-📄 [Co-Authored Paper](./research/decentralized-iot-architecture.pdf)
+📄 [Co-Authored Paper](./research/decentralized-iot-architecture.pdf.pdf)
 📁 [Project Folder](./embue/)
 
 ---
@@ -210,7 +210,7 @@ Targeting roles in:
 * [LinkedIn](https://www.linkedin.com/in/cam-morreale99)
 * [Wellington Technical Writeup](./wellington/technical-writeup.md)
 * [MassDEP Technical Writeup](./massdep/technical-writeup.md)
-* [Embue Paper](./research/decentralized-iot-architecture.pdf)
+* [Embue Paper](./research/decentralized-iot-architecture.pdf.pdf)
 * [OneWorld Project](./oneworld/)
 * [BoardGameGeek Project](./bgg/)
 * [Oasis Project](./oasis/)
